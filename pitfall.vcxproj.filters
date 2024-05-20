@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="template\template.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\opencl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\opengl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\sprite.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\surface.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\tmpl8math.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\animator\animator.cpp" />
+    <ClCompile Include="engine\collider\collider2D.cpp" />
+    <ClCompile Include="engine\managers\uiManager.cpp" />
+    <ClCompile Include="engine\map\map.cpp" />
+    <ClCompile Include="engine\parser\parser.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="game\balloon\balloon.cpp" />
+    <ClCompile Include="game\coin\coin.cpp" />
+    <ClCompile Include="game\entity\enemy\croc\croc.cpp" />
+    <ClCompile Include="game\entity\enemy\enemy.cpp" />
+    <ClCompile Include="game\entity\enemy\frog\frog.cpp" />
+    <ClCompile Include="game\entity\enemy\glider\glider.cpp" />
+    <ClCompile Include="game\entity\enemy\rock\rock.cpp" />
+    <ClCompile Include="game\entity\enemy\scorpion\scorpion.cpp" />
+    <ClCompile Include="game\entity\player\player.cpp" />
+    <ClCompile Include="game\hole\hole.cpp" />
+    <ClCompile Include="game\rope\rope.cpp" />
+    <ClCompile Include="engine\managers\entityManager.cpp" />
+    <ClCompile Include="engine\managers\mapManager.cpp" />
+    <ClCompile Include="engine\managers\soundManager.cpp" />
+    <ClCompile Include="engine\ui\text\text.cpp" />
+    <ClCompile Include="game\checkpoint\checkpoint.cpp" />
+    <ClCompile Include="game\scene\gameScene\gameScene.cpp" />
+    <ClCompile Include="game\scene\loseScene\loseScene.cpp" />
+    <ClCompile Include="game\scene\mainMenuScene\mainMenuScene.cpp" />
+    <ClCompile Include="game\scene\optionsScene\optionsScene.cpp" />
+    <ClCompile Include="game\scene\scene.cpp" />
+    <ClCompile Include="game\scene\winScene\winScene.cpp" />
+    <ClCompile Include="game\trophy\trophy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="template\common.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\precomp.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="cl\tools.cl">
+      <Filter>template\cl</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opencl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opengl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\sprite.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\surface.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\tmpl8math.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\animator\animator.h" />
+    <ClInclude Include="engine\array\dynamicArray.h" />
+    <ClInclude Include="engine\camera.h" />
+    <ClInclude Include="engine\collider\collider2D.h" />
+    <ClInclude Include="engine\managers\uiManager.h" />
+    <ClInclude Include="engine\map\map.h" />
+    <ClInclude Include="engine\object.h" />
+    <ClInclude Include="engine\parser\parser.h" />
+    <ClInclude Include="engine\timer\timer.h" />
+    <ClInclude Include="engine\transform.h" />
+    <ClInclude Include="engine\util\math.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="game\balloon\balloon.h" />
+    <ClInclude Include="game\coin\coin.h" />
+    <ClInclude Include="game\entity\enemy\croc\croc.h" />
+    <ClInclude Include="game\entity\enemy\enemy.h" />
+    <ClInclude Include="game\entity\enemy\frog\frog.h" />
+    <ClInclude Include="game\entity\enemy\glider\glider.h" />
+    <ClInclude Include="game\entity\enemy\rock\rock.h" />
+    <ClInclude Include="game\entity\enemy\scorpion\scorpion.h" />
+    <ClInclude Include="game\entity\player\player.h" />
+    <ClInclude Include="game\hole\hole.h" />
+    <ClInclude Include="game\rope\rope.h" />
+    <ClInclude Include="engine\input\input.h" />
+    <ClInclude Include="engine\managers\entityManager.h" />
+    <ClInclude Include="engine\managers\mapManager.h" />
+    <ClInclude Include="engine\managers\soundManager.h" />
+    <ClInclude Include="engine\ui\button\button.h" />
+    <ClInclude Include="engine\ui\text\text.h" />
+    <ClInclude Include="engine\ui\uiElement.h" />
+    <ClInclude Include="game\checkpoint\checkpoint.h" />
+    <ClInclude Include="game\scene\gameScene\gameScene.h" />
+    <ClInclude Include="game\scene\loseScene\loseScene.h" />
+    <ClInclude Include="game\scene\mainMenuScene\mainMenuScene.h" />
+    <ClInclude Include="game\scene\optionsScene\optionsScene.h" />
+    <ClInclude Include="game\scene\scene.h" />
+    <ClInclude Include="game\scene\winScene\winScene.h" />
+    <ClInclude Include="game\trophy\trophy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="template\LICENSE">
+      <Filter>template</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>template</Filter>
+    </None>
+    <None Include="cl\kernels.cl">
+      <Filter>template\cl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template">
+      <UniqueIdentifier>{a7d6e3cb-bfcd-438d-979f-17df241a55b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template\cl">
+      <UniqueIdentifier>{dc41819e-b6c1-4070-b4c1-0849e444ca7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
