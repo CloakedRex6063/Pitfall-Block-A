@@ -1,12 +1,6 @@
-This template is intended for students of Breda University.
-
-**Please refer to "_ getting started.pdf" for instructions.**
-
-Code is fully public domain. Use as you please.
-
-Contact me at bikker.j@gmail.com.
+Tmpl8 from https://github.com/jbikker/tmpl8
 
 Music from downloads.khinsider.com
-Sound effects by Alex Y1
-Some Sprites by Lynn Y1
+Sound effects by Alex  - Buas Student
+Some Sprites by Lynn van Birgelen - Buas Student
 UI Sprites from kenney.nl
